@@ -1,11 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard Page</title>
+    <title>Leaderboard</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Leaderboard Page</h1>
+    <h1>🏆LEADERBOARD🏆</h1>
+    
+    <form action="">
+        <input type="text" class="fname" placeholder="First Name">
+        <input type="text" class="lname" placeholder="Last Name">
+       <select name="" class="country">
+        <option value="" selected>Select country</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="England">England</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+       </select>
+        <input type="number" class="score" placeholder="Score">
+        <button id="submitBtn">Add Score</button>
+    </form>
+   
+    <div class="container">
+       <p id="empty-user">No records found</p>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
